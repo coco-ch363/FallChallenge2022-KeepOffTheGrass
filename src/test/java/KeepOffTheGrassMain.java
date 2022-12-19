@@ -10,8 +10,8 @@ public class KeepOffTheGrassMain {
 
         MultiplayerGameRunner gameRunner = new MultiplayerGameRunner();
 //         gameRunner.setSeed(-8358938852454912011l);
-        gameRunner.addAgent("python3.8 bots/julien.py", "JulienBot");
-        gameRunner.addAgent("python3.8 bots/kevin.py", "InsectBot");
+        gameRunner.addAgent("python3 bots/bot.py", "JulienBot");
+        gameRunner.addAgent("python3 starterAIs/Starter.py", "StarterBot");
 
         gameRunner.start();
     }
